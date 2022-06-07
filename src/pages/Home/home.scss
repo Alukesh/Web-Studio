@@ -1,0 +1,114 @@
+.home{
+  &__{
+
+    &firstPage{
+      //height: 100vh;
+      padding: 220px 0 0;
+      margin-bottom: 83px;
+      background: url("bg.png") right/contain no-repeat;
+
+      &-text{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 132.4%;
+        max-width: 621px;
+      }
+      &-btn{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 132.4%;
+        transform: translateY(-30%);
+        color: white;
+        height: 170px;
+        width: 170px;
+        box-shadow: -15px -15px 20px black;
+      }
+      &-title{
+        color: white;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 150px;
+        line-height: 108.5%;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        &-bot{
+          font-style: normal;
+          font-weight: 300;
+          font-size: 150px;
+          line-height: 108.5%;
+          letter-spacing: 0.15em;
+          text-transform: uppercase;
+        }
+      }
+
+    }
+
+
+
+    &information{
+      padding: 75px 0 108px;
+      &-title{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 100px;
+        line-height: 108.5%;
+        letter-spacing: 0.13em;
+        margin-bottom: 119px;
+        text-transform: uppercase;
+      }
+      &-text{
+        max-width: 1081px;
+        width: 70%;
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 169%;
+        letter-spacing: 0.105em;
+        margin-bottom: 150px;
+      }
+      &-main{
+        display: flex;
+        column-gap: 100px;
+      }
+      &-btn{
+        font-family: Montserrat,sans-serif;
+        height: 225px;
+        width: 225px;
+        display: flex;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 108.5%;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        text-align: left;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      &-follow{
+        margin-bottom: 35px;
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+      }
+      &-icons{
+        display: flex;
+        column-gap: 25px;
+      }
+    }
+
+
+
+  }
+}
