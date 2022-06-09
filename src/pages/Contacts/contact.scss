@@ -1,0 +1,124 @@
+
+.contact{
+  color: white;
+  position: relative;
+  padding: 50px 0;
+  &__{
+
+    &wrapper{
+      display: flex;
+      margin: 0 150px;
+      column-gap: 70px;
+    }
+    &form{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 33px;
+      &-input{
+        max-height: 145px;
+      }
+
+      &-title{
+        font-family: 'Body Grotesque',sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+      }
+      &-text{
+        margin: 18px 0 60px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+      }
+
+      &-label{
+        background-color: rgba(19, 19, 19, 1);
+
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        z-index: 2;
+        padding: 0 20px;
+        margin-left: 34px;
+        margin-bottom: -40px;
+      }
+      &-btn{
+        padding: 0 66px;
+      }
+
+    }
+
+    &info{
+      margin-top: 145px;
+      &-link{
+        display: flex;
+        column-gap: 19px;
+        align-items: center;
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 132.4%;
+        color: #FFFFFF;
+        text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+        &s{
+          display: flex;
+          flex-direction: column;
+          row-gap: 30px;
+        }
+      }
+
+      &-block{
+        padding: 45px 25px;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #FFFFFF;
+        width: 274px;
+        &-white{
+          background-color: #fff;
+          color: #131313;
+        }
+        &s{
+          margin-top: 50px;
+          display: flex;
+          gap: 60px;
+          flex-wrap: wrap;
+        }
+      }
+      &-title{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 132.4%;
+        margin-bottom: 8px;
+      }
+      &-text{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 132.4%;
+        margin-bottom: 20px;
+        //margin-bottom: 22px;
+      }
+      &-arrow{
+        width: 152px;
+        //height: 100px;
+      }
+    }
+
+
+
+  }
+}

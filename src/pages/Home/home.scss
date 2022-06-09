@@ -1,4 +1,7 @@
 .home{
+  color: white;
+  position: relative;
+
   &__{
 
     &firstPage{
@@ -6,6 +9,15 @@
       padding: 220px 0 0;
       margin-bottom: 83px;
       background: url("bg.png") right/contain no-repeat;
+      &-fog1{
+        top: 0;
+        z-index: -3;
+        transform: translateY(-50%);
+        height: 70vw;
+        width: 70vw;
+        position: absolute;
+        //background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.3) 0%, rgba(25, 28, 36, 0) 100%);
+      }
 
       &-text{
         font-family: Montserrat,sans-serif;

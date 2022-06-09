@@ -5,7 +5,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 
 .container{
@@ -14,11 +14,64 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.aside-text{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  //margin-left: 4rem;
+  font-family: 'Body Grotesque',sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 108.5%;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  &:before{
+    content: '';
+    height: .5px;
+    width: 100vw;
+    background: #FFFFFF;
+    top: -32px;
+    left: -100%;
+    position: absolute;
+  }
+}
 .circleBtn{
-  //font-family: Montserrat,sans-serif;
   cursor: pointer;
   background: rgba(251, 27, 61, 1);
   border-radius: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+.squareBtn{
+  background-color: #FB1B3D;
+  height: 55px;
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 108.5%;
+  text-align: center;
+  letter-spacing: 0.105em;
+}
+.input{
+  background-color: transparent;
+  padding: 25px 54px;
+  width: 600px;
+  border: 1px solid #FFFFFF;
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 108.5%;
+  letter-spacing: 0.105em;
+  resize: none;
 }
 body{
   background-color:  #131313;;
@@ -27,3 +80,6 @@ body{
 
 @import 'src/Layout/Header/header';
 @import 'src/pages/Home/home';
+@import 'src/pages/Contacts/contact';
+@import 'src/pages/About/about';
+@import 'src/pages/Works/works';

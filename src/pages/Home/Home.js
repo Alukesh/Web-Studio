@@ -9,6 +9,8 @@ const Home = () => {
             <div className={'home__firstPage container'}>
                 <div className="container">
                     <div className="home__firstPage-wrapper">
+                        <div className={'home__firstPage-fog1'}/>
+                        <div className={'home__firstPage-fog2'}/>
                         <ul>
                             <li className={'home__firstPage-text'}>Lead is a digital innovation studio that leverages best-in-class strategy, design and development</li>
                         </ul>
