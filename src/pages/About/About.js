@@ -6,7 +6,7 @@ const About = () => {
             <div className={'about container'}>
                 <div className="container">
                     <div className="about__wrapper">
-                        <p className={'aside-text'}>information about</p>
+                        <p className={'aside-text aside-text-info'}>information about</p>
                         <h2 className={'about__title'}>Want a unique design? We will help you!</h2>
 
                         <div className={'about__info'}>

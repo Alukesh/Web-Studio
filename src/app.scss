@@ -9,8 +9,8 @@
 }
 
 .container{
-  width: 100%;
-  max-width: 1612px;
+  max-width: 100%;
+  width: 1612px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -21,14 +21,16 @@
   bottom: 0;
   transform: rotate(-90deg);
   transform-origin: top left;
-  //margin-left: 4rem;
   font-family: 'Body Grotesque',sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 108.5%;
   letter-spacing: 0.13em;
   text-transform: uppercase;
+  &-info{
+    bottom: -200px;
+  }
   &:before{
     content: '';
     height: .5px;

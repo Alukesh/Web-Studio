@@ -1,5 +1,20 @@
 .works {
   color: white;
+  margin-top: 33px;
+  &:before{
+    content: '';
+    height: 100vh;
+    width: .5px;
+    background: #FFFFFF;
+    top: 0;
+    bottom: 0;
+    left: 5%;
+    z-index: 10;
+    //top: -31%;
+    //bottom: 0;
+    //left: -4%;
+    position: absolute;
+  }
 }
 .portfolio{
   padding-top: 30px;
@@ -31,38 +46,52 @@
       text-transform: uppercase;
       writing-mode: vertical-rl;
       transform: rotate(180deg);
-      justify-self: flex-end;
-      align-self: flex-end;
       margin-left: -30px;
       //margin: auto 10px 0 -30px ;
-      &:before{
-        content: '';
-        height: 100vh;
-        width: .5px;
-        background: #FFFFFF;
-        top: -8%;
-        bottom: 0;
-        left: 150%;
-        //top: -31%;
-        //bottom: 0;
-        //left: -4%;
-        position: absolute;
-      }
 
     }
     &wrapper{
     }
     &slider{}
     &slide{
+
       color: white;
-      max-height: 790px;
-      overflow-y: scroll;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 60px;
       width: 80%;
       margin: 0 auto;
       position: relative;
+      &-works{
+        height: 100%;
+        max-height: 800px;
+        overflow-y: scroll;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        padding-bottom: 30px;
+      }
+      &-brands{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-height: 645px;
+        overflow-y: scroll;
+        padding: 50px 0 510px;
+        gap: 60px;
+        &_image{
+          width: calc(30.333% - 40px);
+          &-resize{
+            margin:  -80px 0;
+          }
+        }
+      }
+      &-title{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 167.5%;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+      }
       &-text{
         color: white;
         position: fixed;
