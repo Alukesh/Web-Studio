@@ -7,12 +7,28 @@
   text-decoration: none;
   color: inherit;
 }
+::-webkit-scrollbar-thumb {
+  background: #FB1B3D;
+  border-radius: 50%;
+  width: 20px;
+  height: 120px;
+}
+::-webkit-scrollbar{
+  background: white;
+  width: 2px;
+}
+//::-webkit-scrollbar-thumb{
+//  background: #FB1B3D;
+//  height: 10px;
+//}
 
 .container{
   max-width: 100%;
   width: 1612px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.customScroll{
 }
 
 .aside-text{
@@ -31,15 +47,15 @@
   &-info{
     bottom: -200px;
   }
-  &:before{
-    content: '';
-    height: .5px;
-    width: 100vw;
-    background: #FFFFFF;
-    top: -32px;
-    left: -100%;
-    position: absolute;
-  }
+  //&:before{
+  //  content: '';
+  //  height: .5px;
+  //  width: 100vw;
+  //  background: #FFFFFF;
+  //  top: -32px;
+  //  left: -100%;
+  //  position: absolute;
+  //}
 }
 .circleBtn{
   cursor: pointer;
@@ -48,7 +64,11 @@
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-size: 20px;
-  letter-spacing: 0.13em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
   text-transform: uppercase;
 }
 .squareBtn{
@@ -85,3 +105,4 @@ body{
 @import 'src/pages/Contacts/contact';
 @import 'src/pages/About/about';
 @import 'src/pages/Works/works';
+@import 'src/pages/Prices/prices';

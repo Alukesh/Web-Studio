@@ -19,7 +19,7 @@ const Contacts = () => {
                                <label className={'contact__form-label'} htmlFor="email">Email</label>
                                <input className={'input contact__form-input'} id={'email'} type="email" placeholder={'Enter your email'}/>
 
-                               <label className={'contact__form-label'} htmlFor="texthelp">Email</label>
+                               <label className={'contact__form-label'} htmlFor="texthelp">How can we help?</label>
                                <textarea className={'input contact__form-input'} name="help" id="texthelp" cols="30" rows="10" placeholder={'Your massage'}/>
                                <button className={'squareBtn contact__form-btn'}>Send</button>
                            </form>

@@ -6,10 +6,21 @@
     content: '';
     position: absolute;
     top: 0;
-    width: 100vw;
+    width: 92.9vw;
     height: 0.5px;
     background-color: #fff;
-    left: -30px;
+    left: 7vw;
+  }
+  &:before{
+    content: '';
+    height: 100vh;
+    width: .5px;
+    background: #FFFFFF;
+    top: 0;
+    bottom: 0;
+    left: 7%;
+    z-index: 10;
+    position: fixed;
   }
   &__{
 
@@ -53,6 +64,7 @@
       width: 190px;
       font-weight: 800;
       line-height: 108.5%;
+      letter-spacing: 0.13em;
     }
 
 

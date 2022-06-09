@@ -43,7 +43,7 @@ const Works = () => {
                        <SwiperSlide className={' '}>
                            <div className={'container'}>
                                <div className={'portfolio__slide'}>
-                                   <div className="portfolio__slide-works">
+                                   <div className="portfolio__slide-works customScroll">
                                        <h2 className={'portfolio__slide-text'}>Portfolio</h2>
                                        <div className={'portfolio__slide-card'}>
                                            <img src={outZone1} alt="outZone"/>
