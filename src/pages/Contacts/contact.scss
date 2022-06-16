@@ -3,12 +3,16 @@
   color: white;
   position: relative;
   padding: 50px 0;
+  z-index: 10;
+  //height: 84vh;
+
   &__{
 
     &wrapper{
       display: flex;
       margin: 0 150px;
       column-gap: 70px;
+
     }
     &form{
       display: flex;
@@ -61,6 +65,7 @@
     &info{
       margin-top: 145px;
       &-link{
+        width: fit-content;
         display: flex;
         column-gap: 19px;
         align-items: center;

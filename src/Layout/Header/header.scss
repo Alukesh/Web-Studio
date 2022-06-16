@@ -43,6 +43,33 @@
       display: flex;
       column-gap: 52px;
       margin-right: 100px;
+      &-link{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 132.4%;
+        position: relative;
+        &:after{
+          content: '';
+          width: 0;
+          height: 1px;
+          background: #ffffff;
+          position: absolute;
+          left: 0;
+          bottom: -5px;
+          transition: all .4s;
+        }
+        &:hover{
+          color: #FB1B3D;
+        }
+        &:hover.header__menu-link:after{
+          width: 110%;
+
+          //font-weight: 700;
+          //transform: scale(1.1);
+        }
+      }
     }
     &start{
       display: flex;

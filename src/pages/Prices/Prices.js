@@ -13,9 +13,9 @@ const Prices = () => {
                 <div className="portfolio__slide">
                     <h2 className={'portfolio__slide-text'} style={{fontSize: '60px'}}>prices</h2>
                     <h3 className={'portfolio__slide-title'}>Design services</h3>
-                    <div className={'prices__design'}>
+                    <div className={'prices__design customScroll'}>
 
-                        <div className={'prices__row'}>
+                        <div className={'prices__row '}>
                             <div className={'prices__card'}>
                                 <p className={'prices__card-text'}>Name of the service</p>
                                 <button className={' circleBtn prices__card-btn'}>Start project<span>
@@ -103,6 +103,7 @@ const Prices = () => {
                             </div>
                         </div>
 
+                        <p className={'portfolio__slide-down'}>scroll down</p>
 
                     </div>
                 </div>

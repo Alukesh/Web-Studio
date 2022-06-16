@@ -69,7 +69,10 @@ const Works = () => {
                                            <img src={outZone3} alt="outZone"/>
                                            <p>OUT ZONE</p>
                                        </div>
+                                       <p className={'portfolio__slide-down'}>scroll down</p>
+
                                    </div>
+
                                </div>
 
                            </div>
@@ -82,7 +85,7 @@ const Works = () => {
                                <div className="portfolio__slide">
                                    <h2 className={'portfolio__slide-text'} style={{fontSize:'60px'}}>Our customers</h2>
                                    <h3 className={'portfolio__slide-title'}>We have collaborated with brands such as</h3>
-                                   <div className={'portfolio__slide-brands'}>
+                                   <div className={'portfolio__slide-brands customScroll'}>
                                        <img className={'portfolio__slide-brands_image portfolio__slide-brands_image-resize'} src={brand1} alt="brand"/>
                                        <img className={'portfolio__slide-brands_image'} src={brand2} alt="brand"/>
                                        <img className={'portfolio__slide-brands_image portfolio__slide-brands_image-resize'} src={brand1} alt="brand"/>
@@ -98,8 +101,8 @@ const Works = () => {
                                        <img className={'portfolio__slide-brands_image'} src={brand5} alt="brand"/>
                                        <img className={'portfolio__slide-brands_image'} src={brand6} alt="brand"/>
                                        <img className={'portfolio__slide-brands_image'} src={brand2} alt="brand"/>
-
                                    </div>
+                                   <p className={'portfolio__slide-down'}>scroll down</p>
                                </div>
                            </div>
 

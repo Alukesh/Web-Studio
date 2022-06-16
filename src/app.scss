@@ -9,9 +9,9 @@
 }
 ::-webkit-scrollbar-thumb {
   background: #FB1B3D;
-  border-radius: 50%;
+  //border-radius: 50%;
   width: 20px;
-  height: 120px;
+  height: 10px;
 }
 ::-webkit-scrollbar{
   background: white;
@@ -106,3 +106,4 @@ body{
 @import 'src/pages/About/about';
 @import 'src/pages/Works/works';
 @import 'src/pages/Prices/prices';
+@import 'src/pages/Home/Design/design';

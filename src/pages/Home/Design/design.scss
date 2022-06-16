@@ -1,0 +1,43 @@
+.design{
+  &__{
+
+    &area{}
+    &info{
+      max-width: 684px;
+      margin-top: 40px;
+      &-images{
+        width: fit-content;
+        position: relative;
+        margin-bottom: 124px;
+      }
+      &-img2{
+        position: absolute;
+        left: 60px;
+        top: 44px;
+      }
+      &-title{
+        position: absolute;
+        right: -220px;
+        bottom: -90px;
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 100px;
+        line-height: 108.5%;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      &-text{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 169%;
+        letter-spacing: 0.105em;
+        font-feature-settings: 'case' on;
+      }
+    }
+
+
+  }
+}

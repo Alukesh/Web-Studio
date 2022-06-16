@@ -1,9 +1,10 @@
 import React from 'react';
+import Contacts from "../Contacts/Contacts";
 
 const Clients = () => {
     return (
         <div>
-            client
+            <Contacts/>
         </div>
     );
 };
