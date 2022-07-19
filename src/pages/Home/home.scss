@@ -1,38 +1,7 @@
 .home{
   color: white;
   position: relative;
-  .swiper-pagination-bullet{
-    margin: 15px !important;
-    display: flex;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 30px;
-    font-size: 12px;
-    color:#000;
-    opacity: 1!important;
-    background: #FFFFFF!important;
-    &s{
-      position: absolute;
-      top: 50%;
-      right: 50%;
-      max-width: 4% !important;
-      margin-left: 85vw;
-      width: 90%!important;
-      padding: 0 15px!important;
-      //margin-bottom: 25%;
-      transform: translateY(-30%);
-      display: flex;
-      align-items: flex-end;
-      z-index: 1!important;
-      flex-direction: column;
-    }
-  }
-  .swiper-pagination-bullet-active{
-    color:red;
-    background: red!important;
-  }
+
   &__{
 
     &firstPage{

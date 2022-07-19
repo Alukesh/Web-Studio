@@ -1,9 +1,22 @@
+.home{
+  .works{
+      .swiper-pagination-bullets {
+        max-width: 100% !important;
+        bottom: 0;
+        transform: translateX(-47%);
+        display: flex;
+        gap: 1px!important;
+        flex-direction: row;
+        position: absolute;
+      }
+  }
+}
+
 .works {
   color: white;
   margin-top: 33px;
   .swiper-pagination-bullet {
     margin: 120px 0 0;
-    //padding: 1px 10px;
     border-radius: 0!important;
     width: 40px!important;
     height: 5px!important;
@@ -14,7 +27,7 @@
     opacity: 1!important;
     background: #FFFFFF!important;
   }
-  .swiper-pagination-bullet-active{
+  div .swiper-pagination-bullet-active{
     color:red;
     background: red!important;
   }
@@ -27,9 +40,6 @@
     bottom: 0;
     left: 5%;
     z-index: 10;
-    //top: -31%;
-    //bottom: 0;
-    //left: -4%;
     position: fixed;
   }
 }

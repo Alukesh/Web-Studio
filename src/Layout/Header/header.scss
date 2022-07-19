@@ -50,6 +50,13 @@
         font-size: 16px;
         line-height: 132.4%;
         position: relative;
+        &.active{
+          transform: scale(1.2);
+          //font-size: 30px;
+        }
+        &.active.header__menu-link:after{
+          width: 110%;
+        }
         &:after{
           content: '';
           width: 0;
@@ -65,9 +72,6 @@
         }
         &:hover.header__menu-link:after{
           width: 110%;
-
-          //font-weight: 700;
-          //transform: scale(1.1);
         }
       }
     }

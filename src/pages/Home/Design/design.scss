@@ -1,7 +1,36 @@
 .design{
   &__{
 
-    &area{}
+    &area{
+      margin-bottom: 50px;
+      margin-right: 140px;
+      &-list{
+        list-style-type: none;
+        display: flex;
+        row-gap: 30px;
+        flex-direction: column;
+        margin-bottom: 90px;
+        margin-top: 100px;
+      }
+      &-link{
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 108.5%;
+        letter-spacing: 0.105em;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: all .3s;
+        padding: 10px 30px;
+        &.active{
+          background-color: #fff;
+          color: #131313;
+        }
+      }
+    }
+
+
     &info{
       max-width: 684px;
       margin-top: 40px;
@@ -9,6 +38,12 @@
         width: fit-content;
         position: relative;
         margin-bottom: 124px;
+      }
+      &-img{
+        //max-width: 100%;
+        width: 100%;
+        max-width: 580px;
+        //max-height: 330px;
       }
       &-img2{
         position: absolute;

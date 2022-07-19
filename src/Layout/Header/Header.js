@@ -18,12 +18,12 @@ const Header = () => {
                     </div>
                     <nav className={'header__nav'}>
                         <ul className={'header__menu'}>
-                            <Link className={'header__menu-link'} to={'/'}>Home</Link>
-                            <Link className={'header__menu-link'} to={'/about'}>About</Link>
-                            <Link className={'header__menu-link'} to={'/works'}>Works</Link>
-                            <Link className={'header__menu-link'} to={'/prices'}>Prices</Link>
-                            <Link className={'header__menu-link'} to={'/clients'}>For clients</Link>
-                            <Link className={'header__menu-link'} to={'/contact'}>Contacts</Link>
+                            <NavLink className={'header__menu-link'} to={'/'}>Home</NavLink>
+                            <NavLink className={'header__menu-link'} to={'/about'}>About</NavLink>
+                            <NavLink className={'header__menu-link'} to={'/works'}>Works</NavLink>
+                            <NavLink className={'header__menu-link'} to={'/prices'}>Prices</NavLink>
+                            <NavLink className={'header__menu-link'} to={'/clients'}>For clients</NavLink>
+                            <NavLink className={'header__menu-link'} to={'/contact'}>Contacts</NavLink>
                         </ul>
                     </nav>
                     <p className={'header__start'}>Start a project
